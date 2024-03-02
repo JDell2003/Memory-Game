@@ -1,0 +1,72 @@
+body {
+    align-items: center;
+}
+
+#squares {
+    display: inline-block;
+    margin: 3px;
+    background-color: #969696;
+    height: 100px;
+    width: 100px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.startMaterial, #startGame {
+    text-align: center;
+}
+
+
+.startbtn {
+    position: relative;
+    background-color: #babcbd;
+    display: inline-block;
+    height: 20px;
+    width:150px;
+    top: 260px;
+}
+
+.startbtn:hover {
+    background-color: #2898cf;
+}
+
+#ruleTitle {
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.topTitle {
+ margin-right: 115px;
+}
+
+.bottomTitle {
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+#boxes {
+    position: relative;
+    background-color: rgb(126, 126, 126);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    top: -160px;
+}
+
+#countDown {
+    position: relative;
+    top: -175px;
+    right: 10px;
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    border: 2px solid black;
+    margin-bottom: 100;
+}
+
