@@ -1,72 +1,47 @@
-body {
-    align-items: center;
+*
+{
+    margin: 0;
+    padding: 0;
+    /* box-sizing:border-box; */
 }
-
-#squares {
-    display: inline-block;
-    margin: 3px;
-    background-color: #969696;
-    height: 100px;
-    width: 100px;
-}
-
-#container {
+body
+{
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 1200px;
+    background: #A2A2A1FF;
+}
+
+#flexContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #F1F4FFFF;
+    padding: 40px 60px;
+}
+
+.game {
+    width: 1350px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    transform-style: preserve-3d;
     
 }
 
-.startMaterial, #startGame {
-    text-align: center;
-}
-
-
-.startbtn {
+.item {
     position: relative;
-    background-color: #babcbd;
-    display: inline-block;
-    height: 20px;
-    width:150px;
-    top: 260px;
-}
-
-.startbtn:hover {
-    background-color: #2898cf;
-}
-
-#ruleTitle {
-    margin-top: 200px;
-    text-align: center;
-
-}
-
-.topTitle {
- margin-right: 115px;
-}
-
-.bottomTitle {
-    margin-left: 50px;
-    margin-top: -20px;
-}
-
-#boxes {
-    position: relative;
-    background-color: rgb(126, 126, 126);
-    height: 100px;
     width: 100px;
-    display: inline-block;
-    margin: 10px;
-    top: -160px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background: #A2A2A1FF;
 }
-
-#countDown {
-    position: relative;
-    top: -175px;
-    right: 10px;
-    display: inline-block;
-    height: 30px;
-    width: 120px;
-    border: 2px solid black;
-    margin-bottom: 100;
-}
-
