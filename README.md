@@ -36,5 +36,11 @@
   <li><a href="https://www.youtube.com/watch?v=M0egyNvsN-Y&t=415s">YouTube Tutorial</a> - Helped start CSS development.</li>
 </ul>
 
+<h1>Link to Game</h1>
+<hr>
+<ul>
+  <li> https://jdell2003.github.io/Memory-Game/ </li>
+</ul>
+
 </body>
 </html>
